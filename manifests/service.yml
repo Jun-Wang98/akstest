@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: azuremlazureml21049bfb929301142c8279b03dbc5e88
+spec:
+    type: LoadBalancer
+    ports:
+    - port: 8080 
+    selector:
+        app: azuremlazureml21049bfb929301142c8279b03dbc5e88
