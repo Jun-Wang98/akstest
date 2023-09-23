@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: azuremlazureml21049bfb929301142c8279b03dbc5e88 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: azuremlazureml21049bfb929301142c8279b03dbc5e88
+  template:
+    metadata:
+      labels:
+        app: azuremlazureml21049bfb929301142c8279b03dbc5e88 
+    spec:
+      containers:
+        - name: azuremlazureml21049bfb929301142c8279b03dbc5e88 
+          image: daisyregistry.azurecr.io/azuremlazureml21049bfb929301142c8279b03dbc5e88
+          ports:
+          - containerPort: 8080
